@@ -1,0 +1,13 @@
+path{
+    stroke-dashoffset: 0;
+    stroke-dasharray: 10;
+    animation: jonathan 6s linear infinite;
+}
+@keyframes jonathan{
+    0% {stroke-dashoffset: 0; stroke:  khaki; fill: rgba(126, 252, 0, 0.788);}
+    20% {stroke:  lightsalmon;}
+    40% {stroke: yellow; fill: rgba(126, 252, 0, 0.452);}
+    60% {stroke: blue;}
+    80% {stroke: black;}
+    100% {stroke-dashoffset: 20; fill: rgba(126, 252, 0, 0.76);}
+}
